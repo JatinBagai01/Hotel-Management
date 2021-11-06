@@ -1,32 +1,66 @@
-<?php include 'header.php';?>
-<div class="container">
+<?php
+define("TITLE", "Gallery");
 
-       <h1 class="title">Gallery</h1>
-       <div class="row gallery">
-              
-              <?php
-                require_once('db.php');
-                $q = "SELECT * FROM rooms ORDER BY rooms.id ASC";
-                $run = mysqli_query($con, $q);
-                $count = 0;
-                if(mysqli_num_rows($run) > 0){
-                    while($row = mysqli_fetch_array($run)){
-              ?>
-              
-              <div class="col-sm-4 wowload fadeInUp"><a href="images/photos/<?php echo $row['image1']; ?>" title="<?php echo $row['title']; ?>" class="gallery-image" data-gallery><img src="images/photos/<?php echo $row['image1']; ?>" class="img-responsive"></a></div>
-              <div class="col-sm-4 wowload fadeInUp"><a href="images/photos/<?php echo $row['image2']; ?>" title="<?php echo $row['title']; ?>" class="gallery-image" data-gallery><img src="images/photos/<?php echo $row['image2']; ?>" class="img-responsive"></a></div>
-              <div class="col-sm-4 wowload fadeInUp"><a href="images/photos/<?php echo $row['image3']; ?>" title="<?php echo $row['title']; ?>" class="gallery-image" data-gallery><img src="images/photos/<?php echo $row['image3']; ?>" class="img-responsive"></a></div>
-              <div class="col-sm-4 wowload fadeInUp"><a href="images/photos/<?php echo $row['image4']; ?>" title="<?php echo $row['title']; ?>" class="gallery-image" data-gallery><img src="images/photos/<?php echo $row['image4']; ?>" class="img-responsive"></a></div>
-              <?php
-                    }
-                }
-              ?>
-              <div class="col-sm-4 wowload fadeInUp"><a href="images/photos/1.jpg" title="Foods" class="gallery-image" data-gallery><img src="images/photos/1.jpg" class="img-responsive"></a></div>
-              <div class="col-sm-4 wowload fadeInUp"><a href="images/photos/2.jpg" title="Coffee" class="gallery-image" data-gallery><img src="images/photos/2.jpg" class="img-responsive"></a></div>
-              <div class="col-sm-4 wowload fadeInUp"><a href="images/photos/3.jpg" title="Travel" class="gallery-image" data-gallery><img src="images/photos/3.jpg" class="img-responsive"></a></div>
-              <div class="col-sm-4 wowload fadeInUp"><a href="images/photos/4.jpg" title="Adventure" class="gallery-image" data-gallery><img src="images/photos/4.jpg" class="img-responsive"></a></div>
-              <div class="col-sm-4 wowload fadeInUp"><a href="images/photos/5.jpg" title="Fruits" class="gallery-image" data-gallery><img src="images/photos/5.jpg" class="img-responsive"></a></div>
-              <div class="col-sm-4 wowload fadeInUp"><a href="images/photos/6.jpg" title="Summer" class="gallery-image" data-gallery><img src="images/photos/6.jpg" class="img-responsive"></a></div>
-       </div>
-</div>
-<?php include 'footer.php';?>
+include 'includes/header.php';
+
+include 'includes/titlebox.php';
+?>
+
+<!-- section: image_gallery -->
+<section class="section_img_gallery">
+    <div class="container">
+        <h4 class="section_heading_title text_dark text-center">gallery</h4>
+        <h2 class="section_subtitle text_dark text-center mb_70">peek into our world</h2>
+        <div class="row g-0">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="img_box">
+                    <img src="imgs/img-1.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="img_box">
+                    <img src="imgs/img-2.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="img_box">
+                    <img src="imgs/img-3.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="img_box">
+                    <img src="imgs/img-4.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="img_box">
+                    <img src="imgs/img-5.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="img_box">
+                    <img src="imgs/img-6.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="img_box">
+                    <img src="imgs/img-7.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="img_box">
+                    <img src="imgs/img-8.jpg" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="img_box">
+                    <img src="imgs/img-9.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div><!-- row -->
+    </div><!-- container -->
+</section>
+
+<?php
+include 'includes/footer.php';
+?>
