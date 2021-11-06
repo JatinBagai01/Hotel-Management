@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Hotel Fantastic | Admin</title>
+<title>Hotel Encoded | Admin</title>
 
 <!-- Google fonts -->
 <link href='http://fonts.googleapis.com/css?family=Raleway:300,500,800|Old+Standard+TT' rel='stylesheet' type='text/css'>
@@ -59,8 +59,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="index.php">
-          <div class="col-xs-3"><img src="images/logo.png" alt="holiday crown" width="45px"></div>
-          <div class="col-xs-9" style="margin-top: 18px; font-size: 16pt; margin-left: -12px; font-family: fantasy;">Hotel Fantastic</div>
+          <div class="col-xs-9" style="margin-top: 18px; font-size: 16pt; margin-left: -12px; font-family: fantasy;">Hotel Encoded</div>
       </a>
     </div>
 

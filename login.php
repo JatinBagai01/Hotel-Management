@@ -7,7 +7,7 @@ if(isset($_POST['submit'])){
     $username = mysqli_real_escape_string($con,strtolower($_POST['username']));
     $password = mysqli_real_escape_string($con,$_POST['password']);
     
-    if($username == "srizon" && $password == "srizon"){
+    if($username == "encoded" && $password == "encoded"){
         $_SESSION['username'] = $username;
         $_SESSION['role'] = "admin";
         header('Location: all-rooms.php');
@@ -24,7 +24,7 @@ require_once('header.php');
       <div class="row">
           <div class="col-md-4"></div>
           <div class="col-md-4">
-              <form class="form-signin animated shake" action="" method="post">
+              <form action="" method="post">
                 <h2 class="form-signin-heading">Admin Login</h2>
                 <label for="inputEmail" class="sr-only">Username</label>
                 <input type="text" id="inputEmail" name="username" class="form-control" placeholder="Username" required autofocus>

@@ -3,16 +3,49 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Hotel Fantastic | Best Hotel in Rajshahi</title>
+<title>Hotel Encoded</title>
+
+<!-- Google fonts -->
+<link href='http://fonts.googleapis.com/css?family=Raleway:300,500,800|Old+Standard+TT' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:300,500,800' rel='stylesheet' type='text/css'>
+
+<!-- font awesome -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 
 <!-- bootstrap -->
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+<!-- uniform -->
+<link type="text/css" rel="stylesheet" href="assets/uniform/css/uniform.default.min.css" />
+
+<!-- animate.css -->
+<link rel="stylesheet" href="assets/wow/animate.css" />
+
+
+<!-- gallery -->
+<link rel="stylesheet" href="assets/gallery/blueimp-gallery.min.css">
+
+
+<!-- favicon -->
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
 <link rel="stylesheet" href="assets/style.css">
 
 </head>
 
 <body id="home">
+
+
+<!-- top 
+  <form class="navbar-form navbar-left newsletter" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Enter Your Email Id Here">
+        </div>
+        <button type="submit" class="btn btn-inverse">Subscribe</button>
+    </form>
+ top -->
 
 <!-- header -->
 <nav class="navbar  navbar-inverse" role="navigation">
@@ -28,7 +61,7 @@
       
       <a class="navbar-brand" href="index.php">
           <div class="col-xs-3"><img src="images/logo.png" alt="holiday crown" width="45px"></div>
-          <div class="col-xs-9" style="margin-top: 18px; font-size: 16pt; margin-left: -12px; font-family: fantasy;">Hotel Fantastic</div>
+          <div class="col-xs-9" style="margin-top: 18px; font-size: 16pt; margin-left: -12px; font-family: fantasy;">Hotel Encoded</div>
       </a>
     </div>
 
@@ -37,7 +70,9 @@
       
       <ul class="nav navbar-nav">        
         <li><a href="index.php">Home </a></li>
-        <li><a href="rooms-tariff.php">Rooms &amp; Tariff</a></li>   
+        <li><a href="rooms-tariff.php">Rooms &amp; Tariff</a></li> 
+        <li><a href="index.php">Restaurant </a></li>
+        <li><a href="index.php">Transportation Services </a></li>
         <li><a href="gallery.php">Gallery</a></li>
         <li><a href="contact.php">Contact</a></li>
         <li><a href="login.php">Admin</a></li>

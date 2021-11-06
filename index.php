@@ -9,8 +9,7 @@
     <div class="welcome-message">
         <div class="wrap-info">
             <div class="information">
-                <h1  class="animated fadeInDown">Best hotel in Rajshahi</h1>
-                <p class="animated fadeInUp">Most luxurious hotel in Rajshahi with the royal treatments and excellent customer service.</p>
+                <h1  class="animated fadeInDown">Hotel Endoded</h1>
             </div>
             <a href="#information" class="arrow-nav scroll wowload fadeInDownBig"><i class="fa fa-angle-down"></i></a>
         </div>

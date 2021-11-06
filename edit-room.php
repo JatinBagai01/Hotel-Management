@@ -9,7 +9,7 @@
         <div class="container-fluid body-section container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2><i class="fa fa-plus-square"></i> Edit Room <small> Don't Forget To Insert Images Again</small></h2>
+                    <h2><i class="fa fa-plus-square"></i> Edit Room</h2>
                     
                     <?php
                     require_once('db.php');
@@ -115,7 +115,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="title">Price:*</label>
-                                            <input type="text" name="price" placeholder="Type Price Here (Taka)" value="<?php if(isset($title)){echo $price;}?>" class="form-control">
+                                            <input type="text" name="price" placeholder="Type Price Here (INR)" value="<?php if(isset($title)){echo $price;}?>" class="form-control">
                                         </div>
                                     </div>
                                 </div>
