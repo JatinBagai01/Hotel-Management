@@ -9,7 +9,7 @@
     <div class="welcome-message">
         <div class="wrap-info">
             <div class="information">
-                <h1  class="animated fadeInDown">Hotel Endoded</h1>
+                <h1  class="animated fadeInDown">Hotel Encoded</h1>
             </div>
             <a href="#information" class="arrow-nav scroll wowload fadeInDownBig"><i class="fa fa-angle-down"></i></a>
         </div>
