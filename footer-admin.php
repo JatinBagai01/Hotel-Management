@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-5">
-                    <h4>Hotel Fantastic Admin</h4>
+                    <h4>Hotel Encoded Admin</h4>
                     <p>As an admin you can do much staffs. You can add rooms in the database. On that case, you've to provide 4 images for each room. Yes, you can edit rooms. You can add as many rooms as you want. Don't worry, there is a cute delete button in all rooms page. You can delete the rooms if you want. You can watch or delete the feedbacks sent from the users &amp; contact them also. Same thing goes for requests also.</p>
                 </div>              
                  
@@ -40,7 +40,7 @@
     <!--/.footer-bottom--> 
 </footer>
 
-<div class="text-center copyright">Copyright (c) reserved by <a href="index.php">Hotel Fantastic</a></div>
+<div class="text-center copyright">Copyright (c) reserved by <a href="index.php">Hotel Encoded</a></div>
 
 <a href="#home" class="toTop scroll"><i class="fa fa-angle-up"></i></a>
 

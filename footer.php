@@ -6,15 +6,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-5">
-                    <h4>Hotel Fantastic</h4>
-                    <p>Hotel Fantastic is the best hotel you'll find in whole Rajshahi. We not only care about our present customers, but also we care about our past customers, focus on our future customer &amp; of course our big focus always lies on the comfort of our customers. In our website you can quickly request for booking. We'll let you know within 24 hours if we've rooms for you or not. You can go through all our rooms, prices &amp; size, of course with images. We provide the pictures of places to visit in Rajshahi. Enjoy you leisure time here... </p>
+                    <h4>Hotel Encoded</h4>
+                    <p>Hotel Encoded is the best hotel you'll find. We not only care about our present customers, but also we care about our past customers, focus on our future customer &amp; of course our big focus always lies on the comfort of our customers. In our website you can quickly request for booking. We'll let you know within 24 hours if we've rooms for you or not. You can go through all our rooms, prices &amp; size, of course with images. We provide the pictures of places to visit in Rajshahi. Enjoy you leisure time here. </p>
                 </div>              
                  
                  <div class="col-sm-3">
                     <h4>Quick Links</h4>
                     <ul class="list-unstyled">
-                        <li><a href="rooms-tariff.php">Rooms &amp; Tariff</a></li>        
-                        <li><a href="introduction.php">Introduction</a></li>
+                        <li><a href="rooms-tariff.php">Rooms &amp; Tariff</a></li>  
                         <li><a href="gallery.php">Gallery</a></li>
                         <li><a href="contact.php">Contact</a></li>
                         <li><a href="login.php">Admin</a></li>
@@ -40,7 +39,7 @@
     <!--/.footer-bottom--> 
 </footer>
 
-<div class="text-center copyright">Copyright (c) reserved by <a href="index.php">Hotel Fantastic</a></div>
+<div class="text-center copyright">Copyright (c) reserved by <a href="index.php">Hotel Encoded</a></div>
 
 <a href="#home" class="toTop scroll"><i class="fa fa-angle-up"></i></a>
 

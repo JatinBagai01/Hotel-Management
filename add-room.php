@@ -100,7 +100,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="title">Price:*</label>
-                                            <input type="text" name="price" placeholder="Type Price Here (Taka)" value="<?php if(isset($title)){echo $price;}?>" class="form-control">
+                                            <input type="text" name="price" placeholder="Type Price Here (INR)" value="<?php if(isset($title)){echo $price;}?>" class="form-control">
                                         </div>
                                     </div>
                                 </div>
