@@ -146,6 +146,7 @@ function test_input($data)
                                 </tr>
                             </tbody>
                         </table>
+                        <a href="<?php echo BASE_URL; ?>logout.php"><input type="submit" name="submit" value="Logout" class="btn btn_theme shadow-none"></a>
                     <?php
                     }
                     fclose($myfile);
