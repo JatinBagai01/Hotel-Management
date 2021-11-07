@@ -266,8 +266,8 @@ include 'includes/header.php';
                         </div>
                         <div class="guest_text d-flex align-items-center ps-3">
                             <div class="guest_name">
-                                <h6 class="text_dark">Jaydon Simmon</h6>
-                                <span>Australia</span>
+                                <h6 class="text_dark">Jaydon Patel</h6>
+                                <span>Ahemdabad</span>
                             </div>
                         </div>
                     </div>
@@ -291,8 +291,8 @@ include 'includes/header.php';
                         </div>
                         <div class="guest_text d-flex align-items-center ps-3">
                             <div class="guest_name">
-                                <h6 class="text_dark">Mollie Griffin</h6>
-                                <span>Netherlands</span>
+                                <h6 class="text_dark">Mollie Saini</h6>
+                                <span>Nagpur</span>
                             </div>
                         </div>
                     </div>
@@ -316,8 +316,8 @@ include 'includes/header.php';
                         </div>
                         <div class="guest_text d-flex align-items-center ps-3">
                             <div class="guest_name">
-                                <h6 class="text_dark">Sara Johnson</h6>
-                                <span>Italy</span>
+                                <h6 class="text_dark">Sara Kapoor</h6>
+                                <span>Delhi</span>
                             </div>
                         </div>
                     </div>

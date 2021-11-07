@@ -163,9 +163,10 @@ include 'includes/titlebox.php';
 </section>
 
 <!-- section: testimonials -->
+<!-- section: testimonials -->
 <section class="section_testimonial">
     <div class="container">
-        <h4 class="section_heading_title text_dark text-center">testimonial</h4>
+        <h4 class="section_heading_title text_dark text-center">testimonials</h4>
         <h2 class="section_subtitle text_dark text-center mb_70">What our guests say</h2>
         <div class="row no-gutters">
             <div class="col-lg-4">
@@ -176,7 +177,7 @@ include 'includes/titlebox.php';
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
                     </div>
                     <p class="mb_20"><i class="fas fa-quote-left"></i> This was the perfect hotel with the perfect location, perfect room. We had an amazing experience at this hotel. Each member of the staff was incredibly friendly, welcoming, helpful and experienced.</p>
                     <div class="guest_info d-flex align-items-center">
@@ -185,8 +186,8 @@ include 'includes/titlebox.php';
                         </div>
                         <div class="guest_text d-flex align-items-center ps-3">
                             <div class="guest_name">
-                                <h6 class="text_dark">Jaydon Simmon</h6>
-                                <span>Australia</span>
+                                <h6 class="text_dark">Jaydon Patel</h6>
+                                <span>Ahemdabad</span>
                             </div>
                         </div>
                     </div>
@@ -201,7 +202,7 @@ include 'includes/titlebox.php';
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
                     </div>
                     <p class="mb_20"><i class="fas fa-quote-left"></i> This was the perfect hotel with the perfect location, perfect room. We had an amazing experience at this hotel. Each member of the staff was incredibly friendly, welcoming, helpful and experienced.</p>
                     <div class="guest_info d-flex align-items-center">
@@ -210,8 +211,8 @@ include 'includes/titlebox.php';
                         </div>
                         <div class="guest_text d-flex align-items-center ps-3">
                             <div class="guest_name">
-                                <h6 class="text_dark">Mollie Griffin</h6>
-                                <span>Netherlands</span>
+                                <h6 class="text_dark">Mollie Saini</h6>
+                                <span>Nagpur</span>
                             </div>
                         </div>
                     </div>
@@ -235,8 +236,8 @@ include 'includes/titlebox.php';
                         </div>
                         <div class="guest_text d-flex align-items-center ps-3">
                             <div class="guest_name">
-                                <h6 class="text_dark">Sara Johnson</h6>
-                                <span>Italy</span>
+                                <h6 class="text_dark">Sara Kapoor</h6>
+                                <span>Delhi</span>
                             </div>
                         </div>
                     </div>
