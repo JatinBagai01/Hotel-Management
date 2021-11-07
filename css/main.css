@@ -1,686 +1,700 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 body {
-    padding: 0;
-    margin: 0;
-    color: #5a5a5a;
-    background-color: #ffffff;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.7;
-    overflow-x: hidden;
-    z-index: 0;
-    position: relative;
+  padding: 0;
+  margin: 0;
+  color: #5a5a5a;
+  background-color: #ffffff;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+  overflow-x: hidden;
+  z-index: 0;
+  position: relative;
+}
+
+html::-webkit-scrollbar {
+  width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .alert {
-    padding: 12px;
-    display: flex;
-    justify-content: space-between;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .alert .closeBtn {
-    font-size: 22px;
-    line-height: 20px;
-    cursor: pointer;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
 }
 
 .text_dark {
-    color: #311d3d;
+  color: #311d3d;
 }
 
 .section_heading_title {
-    font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 .section_subtitle {
-    font-size: 32px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 600;
-    text-transform: capitalize;
+  font-size: 32px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
 .section_background_overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: transparent;
-    background-image: linear-gradient(135deg, #0B212B 0%, #1D394B 100%);
-    opacity: 0.7;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  background-image: linear-gradient(135deg, #0b212b 0%, #1d394b 100%);
+  opacity: 0.7;
 }
 
 .mt_50 {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .mb_70 {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 .mb_60 {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .mb_30 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .mb_20 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /*--- buttons ---*/
 .btn {
-    display: inline-block;
-    font-family: inherit;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 15px 30px;
-    text-transform: uppercase;
-    border-radius: 7px;
-    line-height: 1;
-    letter-spacing: 1.5px;
-    transition: all 0.2s ease-in;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  border-radius: 7px;
+  line-height: 1;
+  letter-spacing: 1.5px;
+  transition: all 0.2s ease-in;
 }
 
 .btn_theme {
-    color: #11202a;
-    border-color: #ffba00;
-    background-color: #ffba00;
+  color: #11202a;
+  border-color: #ffba00;
+  background-color: #ffba00;
 }
 
 .btn_theme:hover {
-    border-color: #ffd014;
-    background-color: #ffd014;
+  border-color: #ffd014;
+  background-color: #ffd014;
 }
 
 /*-- header --*/
 .header_area {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 30;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 30;
 }
 
 .header_area .navbar .navbar-brand h1 {
-    color: #ffffff;
-    font-size: 22px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
+  color: #ffffff;
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
 }
 
-
 .header_area .navbar .navbar-brand i {
-    color: #ffd014;
-    font-size: 12px;
-    padding-left: 6px;
+  color: #ffd014;
+  font-size: 12px;
+  padding-left: 6px;
 }
 
 .header_area .nav-item .nav-link {
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: capitalize;
-    color: #ffffff;
-    margin-right: 15px;
-    background-color: transparent;
-    position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-right: 15px;
+  background-color: transparent;
+  position: relative;
 }
 
 /*--- section: title_box ---*/
 .section_titlebox {
-    min-height: 50vh;
-    background-image: url(../imgs/titlebox_bg.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  min-height: 50vh;
+  background-image: url(../imgs/titlebox_bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .section_titlebox .titlebox_inner {
-    position: relative;
+  position: relative;
 }
 
 .section_titlebox .titlebox_inner .titlebox_title {
-    font-size: 32px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 600;
-    color: #ffffff;
-    text-transform: capitalize;
+  font-size: 32px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: capitalize;
 }
 
 /*--- section: hero ---*/
 .section_hero {
-    min-height: 100vh;
-    background-image: url(../imgs/hero-section-banner.jpg);
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
+  min-height: 100vh;
+  background-image: url(../imgs/hero-section-banner.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
 }
 
 .section_hero .hero_content {
-    color: #ffffff;
-    text-align: center;
-    position: relative;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
 }
 
 .section_hero .hero_content h1 {
-    font-size: 64px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 600;
-    text-transform: capitalize;
-    margin-bottom: 0;
+  font-size: 64px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 0;
 }
 
 .section_hero .hero_content p {
-    font-size: 18px;
-    margin: 25px 0 45px;
+  font-size: 18px;
+  margin: 25px 0 45px;
 }
 
 /*--- section: about_us ---*/
 .section_about {
-    padding: 120px 0;
+  padding: 120px 0;
 }
 
 .section_about .about_img {
-    margin: 15px 0;
+  margin: 15px 0;
 }
 
 .section_about .about_img img {
-    border-radius: 6px;
-    -webkit-box-shadow: 0px 40px 50px -20px rgba(0, 0, 0, 0.35);
-    box-shadow: 0px 40px 50px -20px rgba(0, 0, 0, 0.35);
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 40px 50px -20px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 40px 50px -20px rgba(0, 0, 0, 0.35);
 }
 
 .section_about .about_content {
-    margin: 15px 0;
+  margin: 15px 0;
 }
 
 /*--- section: amenities ----*/
 .section_amenities {
-    padding: 120px 0;
-    background-color: #f6f6f9;
+  padding: 120px 0;
+  background-color: #f6f6f9;
 }
 
 .section_amenities .amenities_icon_box {
-    padding: 15px;
-    text-align: center;
+  padding: 15px;
+  text-align: center;
 }
 
 .section_amenities .amenities_icon_box img {
-    height: 66px;
-    width: 66px;
+  height: 66px;
+  width: 66px;
 }
 
 .section_amenities .amenities_icon_box p {
-    margin: 8px 0 0 0;
-    text-transform: capitalize;
+  margin: 8px 0 0 0;
+  text-transform: capitalize;
 }
 
 .section_amenities .amenities_img_box {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding: 110px 0;
-    margin: 10px;
-    border-radius: 6px;
-    position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 110px 0;
+  margin: 10px;
+  border-radius: 6px;
+  position: relative;
 }
 
 .section_amenities .amenities_img_box .background_overlay {
-    position: absolute;
-    background: #000000;
-    opacity: 0.4;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    border-radius: 6px;
+  position: absolute;
+  background: #000000;
+  opacity: 0.4;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
 }
 
 .section_amenities .amenities_img_box .text_box {
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 .section_amenities .amenities_img_box .text_box h3 {
-    color: #ffffff;
-    font-size: 24px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 600;
-    text-transform: capitalize;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
 /*--- section: cta ---*/
 .section_cta {
-    padding: 80px 0;
-    background-image: url(../imgs/cta-bg-free-img.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
+  padding: 80px 0;
+  background-image: url(../imgs/cta-bg-free-img.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
 }
 
 .section_cta .cta_content,
 .section_cta .cta_btn {
-    margin: 15px 0;
-    position: relative;
+  margin: 15px 0;
+  position: relative;
 }
 
-
 .section_cta .cta_content .cta_heading_title {
-    font-size: 32px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 600;
-    text-transform: capitalize;
+  font-size: 32px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
 /*--- section: slideshow_gallery ---*/
 .section_slideshow_gallery {
-    padding: 120px 0;
+  padding: 120px 0;
 }
 
 .section_slideshow_gallery .swiper {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .section_slideshow_gallery .swiper-slide img {
-    border-radius: 6px;
+  border-radius: 6px;
 }
 
 .section_slideshow_gallery .swiper .swiper-button-prev,
 .section_slideshow_gallery .swiper .swiper-button-next {
-    outline: none !important;
+  outline: none !important;
 }
 
 .section_slideshow_gallery .swiper .swiper-button-prev::after,
 .section_slideshow_gallery .swiper .swiper-button-next::after {
-    color: hsla(0, 0%, 93.3%, .9);
-    font-size: 2rem;
+  color: hsla(0, 0%, 93.3%, 0.9);
+  font-size: 2rem;
 }
 
 /*--- section: packages ---*/
 .section_packages {
-    padding: 120px 0;
-    background-color: #f6f6f9;
+  padding: 120px 0;
+  background-color: #f6f6f9;
 }
 
 .section_packages .card {
-    border: none;
-    border-radius: 0;
-    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, .1);
-    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .1);
-    margin: 15px 0;
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+  margin: 15px 0;
 }
 
 .section_packages .card .card-img {
-    border-radius: 0;
+  border-radius: 0;
 }
 
 .section_packages .card .card_overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: #000;
-    opacity: .4;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.4;
 }
 
 .section_packages .card div.overlay_text {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    right: 0;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, .5);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .section_packages .card .card-body h5 {
-    font-size: 24px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 600;
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
 }
 
 .section_packages .card .card-body p {
-    margin: 20px 0 30px;
+  margin: 20px 0 30px;
 }
 
 /*--- section: testimonials ---*/
 .section_testimonial {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 
 .section_testimonial .testimonial_box {
-    margin: 10px;
+  margin: 10px;
 }
 
 .section_testimonial .testimonial_box h4 {
-    font-weight: 600;
-    margin-bottom: 6px;
+  font-weight: 600;
+  margin-bottom: 6px;
 }
 
 .section_testimonial .testimonial_box .rating {
-    margin: 8px 0 15px;
-    color: #ffba00;
-    font-size: 14px;
+  margin: 8px 0 15px;
+  color: #ffba00;
+  font-size: 14px;
 }
 
 .section_testimonial .testimonial_box .guest_pic img {
-    width: 78px;
-    height: 78px;
+  width: 78px;
+  height: 78px;
 }
 
 .section_testimonial .testimonial_box .guest_name h6 {
-    font-size: 16px;
-    margin-bottom: 0;
-    text-transform: capitalize;
-    font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  font-weight: 600;
 }
 
 .section_testimonial .testimonial_box .guest_name span {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 /*-- section: counter --*/
 .section_counter {
-    padding: 100px 0;
-    background-image: url(../imgs/counter-bg.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
+  padding: 100px 0;
+  background-image: url(../imgs/counter-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
 }
 
 .section_counter .counter_box {
-    color: #ffffff;
-    margin: 15px 0;
-    position: relative;
+  color: #ffffff;
+  margin: 15px 0;
+  position: relative;
 }
 
 .section_counter .counter_box .counter_num {
-    margin-right: 11px;
+  margin-right: 11px;
 }
 
 .section_counter .counter_num span {
-    color: #ffba00;
-    font-size: 55px;
-    font-weight: 600;
-    display: inline-block;
-    line-height: 52px;
+  color: #ffba00;
+  font-size: 55px;
+  font-weight: 600;
+  display: inline-block;
+  line-height: 52px;
 }
 
 .section_counter .counter_txt h3 {
-    font-size: 28px;
-    font-weight: 500;
-    text-transform: capitalize;
-    margin-bottom: 0;
+  font-size: 28px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 0;
 }
 
 .section_counter .counter_txt p {
-    font-size: 12px;
-    text-transform: capitalize;
-    font-weight: 600;
-    letter-spacing: 2px;
-    margin-bottom: 0;
-    line-height: 25px;
-    opacity: .9;
+  font-size: 12px;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  line-height: 25px;
+  opacity: 0.9;
 }
 
 /*--- section: img_gallery ---*/
 .section_img_gallery {
-    padding: 120px 0;
+  padding: 120px 0;
 }
 
 .section_img_gallery .img_box {
-    margin: 10px;
-    overflow: hidden;
+  margin: 10px;
+  overflow: hidden;
 }
 
 .section_img_gallery .img_box img {
-    width: 100%;
-    -webkit-transition: all 0.3s linear;
-    transition: all 0.3s linear;
+  width: 100%;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .section_img_gallery .img_box:hover img {
-    -webkit-transform: rotate(1deg) scale(1.1);
-    transform: rotate(1deg) scale(1.1);
+  -webkit-transform: rotate(1deg) scale(1.1);
+  transform: rotate(1deg) scale(1.1);
 }
 
 /*--- section: rooms_list --*/
 .section_rooms {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 
 .section_rooms .room_info_box {
-    margin: 15px 0;
+  margin: 15px 0;
 }
 
 .section_rooms .room_info_box img.room_img {
-    width: 100%;
+  width: 100%;
 }
 
 .section_rooms .room_title {
-    font-size: 24px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 600;
-    margin-bottom: 15px;
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
 
 .section_rooms .room_info_1 {
-    padding-top: 20px;
-    border-top: 1px solid rgba(204, 204, 204, .5);
+  padding-top: 20px;
+  border-top: 1px solid rgba(204, 204, 204, 0.5);
 }
 
 .section_rooms .room_info_2 .range {
-    font-size: 13px;
-    font-weight: 500;
+  font-size: 13px;
+  font-weight: 500;
 }
 
 .section_rooms .room_info_2 .value {
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
 }
 
 /*--- section: room details ---*/
 .section_room_details {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 
 .section_room_details .room_content h4,
 .section_room_details .room_details h4 {
-    font-size: 26px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 600;
-    text-transform: capitalize;
-    margin-bottom: 15px;
+  font-size: 26px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 15px;
 }
 
 .section_room_details .room_content,
 .section_room_details .room_amenities,
 .section_room_details .room_img,
 .section_room_details .room_details {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .section_room_details .room_amenities .ra_icon_box {
-    position: relative;
-    padding-left: 50px;
-    padding-bottom: 10px;
+  position: relative;
+  padding-left: 50px;
+  padding-bottom: 10px;
 }
 
 .section_room_details .room_amenities .ra_icon_box i {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 40px;
-    width: 40px;
-    background: #ffba00;
-    background: #11202A;
-    color: #ffffff;
-    border-radius: 50%;
-    line-height: 40px;
-    text-align: center;
-    font-size: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  background: #ffba00;
+  background: #11202a;
+  color: #ffffff;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  font-size: 1rem;
 }
 
 .section_room_details .room_amenities .ra_icon_box p {
-    margin-bottom: 0;
-    line-height: 40px;
-    text-transform: capitalize;
+  margin-bottom: 0;
+  line-height: 40px;
+  text-transform: capitalize;
 }
 
 .section_room_details .room_details ul li {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 .section_room_details .room_price_box span {
-    font-size: 22px;
-    font-weight: 500;
-    text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: capitalize;
 }
 
 /*---- section: contact ---*/
 .section_contact {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 
 .section_contact .contact_info,
 .section_contact .contact_form {
-    margin: 15px;
+  margin: 15px;
 }
 
 .section_contact .contact_info .card {
-    color: #ffffff;
-    background: #11202A;
+  color: #ffffff;
+  background: #11202a;
 }
 
 .section_contact .contact_form .form-control {
-    color: #666666;
-    padding: 12px 13px;
-    font-size: 15px;
-    height: auto;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-    background: #fafafa;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    outline: none;
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
+  color: #666666;
+  padding: 12px 13px;
+  font-size: 15px;
+  height: auto;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+  background: #fafafa;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .section_contact .contact_form .form-control:focus {
-    border: 1px solid #ffba00;
-    background: #ffffff;
-    outline: none;
+  border: 1px solid #ffba00;
+  background: #ffffff;
+  outline: none;
 }
 
 /*--- footer ---*/
 .page_footer {
-    padding: 60px 0 0 0;
-    background-color: #11202A;
+  padding: 60px 0 0 0;
+  background-color: #11202a;
 }
 
 .page_footer .footer_logo {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .page_footer .footer_logo a {
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 1.2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1.2px;
 }
 
-.page_footer .footer_logo a>h1 {
-    color: #ffffff;
-    font-size: 24px;
-    font-family: "Playfair Display", serif;
-    font-weight: 600;
+.page_footer .footer_logo a > h1 {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
 }
 
-.page_footer .footer_logo a>i {
-    color: #ffba00;
-    padding-right: 6px;
-    font-size: 14px;
+.page_footer .footer_logo a > i {
+  color: #ffba00;
+  padding-right: 6px;
+  font-size: 14px;
 }
 
 .page_footer .upper_footer h6 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
-.page_footer .upper_footer h6>.footer_link {
-    font-size: 17px;
-    color: #ffffff;
-    display: inline-block;
-    text-decoration: none;
-    text-transform: capitalize;
+.page_footer .upper_footer h6 > .footer_link {
+  font-size: 17px;
+  color: #ffffff;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .page_footer .footer_address {
-    margin: 50px 0;
+  margin: 50px 0;
 }
 
 .page_footer .address_icon span {
-    display: inline-block;
-    height: 45px;
-    width: 45px;
-    border: 2px solid #ffffff;
-    border-radius: 50%;
-    line-height: 43px;
-    font-size: 15px;
-    color: #ffffff;
-    text-align: center;
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  line-height: 43px;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
 }
 
 .page_footer .address_text {
-    margin-left: 12px;
+  margin-left: 12px;
 }
 
 .page_footer .address_text h6 {
-    color: #ffffff;
-    font-size: 16px;
-    margin-bottom: 0;
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 0;
 }
 
 .page_footer .footer_social_icons {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .page_footer .footer_social_icons li a {
-    display: inline-block;
-    height: 45px;
-    width: 45px;
-    border: 2px solid #ffba00;
-    color: #ffba00;
-    border-radius: 50%;
-    font-size: 15px;
-    text-align: center;
-    line-height: 43px;
-    margin-right: 10px;
-    -webkit-transition: all 0.2s linear;
-    transition: all 0.2s linear;
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  border: 2px solid #ffba00;
+  color: #ffba00;
+  border-radius: 50%;
+  font-size: 15px;
+  text-align: center;
+  line-height: 43px;
+  margin-right: 10px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 .page_footer .footer_social_icons li a:hover {
-    background-color: #ffba00;
-    color: #ffffff;
+  background-color: #ffba00;
+  color: #ffffff;
 }
 
 .page_footer .footer_copyright {
-    padding: 1rem 0;
-    border-top: 1px solid rgba(234, 234, 234, 0.15);
+  padding: 1rem 0;
+  border-top: 1px solid rgba(234, 234, 234, 0.15);
 }
