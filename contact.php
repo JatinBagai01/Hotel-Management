@@ -90,10 +90,10 @@ function test_input($data)
                         </div>
                     </div>
                     <ul class="list-group">
-                        <li class="list-group-item">1525 Madison Lane, Los Angeles, CA</li>
-                        <li class="list-group-item">+1 (603)535-4592</li>
-                        <li class="list-group-item">hello@youremail.com</li>
-                        <li class="list-group-item">Everyday: 06:00 -22:00</li>
+                        <li class="list-group-item">34-D, Delhi, IN</li>
+                        <li class="list-group-item">+91-123-4567-890</li>
+                        <li class="list-group-item">info@example.com</li>
+                        <li class="list-group-item">Everyday: 06:00 - 22:00</li>
                     </ul>
                 </div>
             </div><!-- column closed -->

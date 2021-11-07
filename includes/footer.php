@@ -8,7 +8,7 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <h1>THE HOTEL<h1>
+                <h1>THE ENCODED<h1>
             </a>
         </div>
 

@@ -33,7 +33,7 @@ include "includes/arrays.php";
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
-                    <h1>THE HOTEL</h1>
+                    <h1>THE ENCODED</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars" style="color:#ffffff;"></i>
