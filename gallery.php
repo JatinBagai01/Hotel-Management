@@ -14,47 +14,47 @@ include 'includes/titlebox.php';
         <div class="row g-0">
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="img_box">
-                    <img src="assets/img-1.jpg" class="img-fluid">
+                    <img src="imgs/img-1.jpg" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="img_box">
-                    <img src="assets/img-2.jpg" class="img-fluid">
+                    <img src="imgs/img-2.jpg" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="img_box">
-                    <img src="assets/img-3.jpg" class="img-fluid">
+                    <img src="imgs/img-3.jpg" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="img_box">
-                    <img src="assets/img-4.jpg" class="img-fluid">
+                    <img src="imgs/img-4.jpg" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="img_box">
-                    <img src="assets/img-5.jpg" class="img-fluid">
+                    <img src="imgs/img-5.jpg" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="img_box">
-                    <img src="assets/img-6.jpg" class="img-fluid">
+                    <img src="imgs/img-6.jpg" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="img_box">
-                    <img src="assets/img-7.jpg" class="img-fluid">
+                    <img src="imgs/img-7.jpg" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="img_box">
-                    <img src="assets/img-8.jpg" class="img-fluid">
+                    <img src="imgs/img-8.jpg" class="img-fluid">
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="img_box">
-                    <img src="assets/img-9.jpg" class="img-fluid">
+                    <img src="imgs/img-9.jpg" class="img-fluid">
                 </div>
             </div>
         </div><!-- row -->

@@ -22,7 +22,7 @@ include 'includes/header.php';
         <div class="row g-0">
             <div class="col-lg-6 d-flex align-items-center">
                 <div class="about_img">
-                    <img src="assets/about.jpg" class="img-fluid">
+                    <img src="imgs/about.jpg" class="img-fluid">
                 </div>
             </div>
 
@@ -47,42 +47,42 @@ include 'includes/header.php';
         <div class="row">
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="amenities_icon_box">
-                    <img src="assets/bar.png">
+                    <img src="imgs/bar.png">
                     <p>home brewery</p>
                 </div>
             </div>
 
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="amenities_icon_box">
-                    <img src="assets/home-cafe.png">
+                    <img src="imgs/home-cafe.png">
                     <p>coffee bar</p>
                 </div>
             </div><!-- column -->
 
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="amenities_icon_box">
-                    <img src="assets/room-service.png">
+                    <img src="imgs/room-service.png">
                     <p>room service</p>
                 </div>
             </div>
 
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="amenities_icon_box">
-                    <img src="assets/restaurant.png">
+                    <img src="imgs/restaurant.png">
                     <p>restaurant</p>
                 </div>
             </div>
 
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="amenities_icon_box">
-                    <img src="assets/car-rental.png">
+                    <img src="imgs/car-rental.png">
                     <p>car rental</p>
                 </div>
             </div>
 
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="amenities_icon_box">
-                    <img src="assets/wifi.png">
+                    <img src="imgs/wifi.png">
                     <p>secure wi-fi</p>
                 </div>
             </div>
@@ -90,7 +90,7 @@ include 'includes/header.php';
 
         <div class="row g-0 mt_50">
             <div class="col-lg-3 col-md-6">
-                <div class="amenities_img_box" style="background-image: url(assets/breakfast.jpg);">
+                <div class="amenities_img_box" style="background-image: url(imgs/breakfast.jpg);">
                     <div class="background_overlay"></div>
                     <div class="text_box">
                         <h3>breakfast</h3>
@@ -99,7 +99,7 @@ include 'includes/header.php';
             </div>
 
             <div class="col-lg-3 col-md-6">
-                <div class="amenities_img_box" style="background-image: url(assets/spa.jpg);">
+                <div class="amenities_img_box" style="background-image: url(imgs/spa.jpg);">
                     <div class="background_overlay"></div>
                     <div class="text_box">
                         <h3>wellness spa</h3>
@@ -108,7 +108,7 @@ include 'includes/header.php';
             </div>
 
             <div class="col-lg-3 col-md-6">
-                <div class="amenities_img_box" style="background-image: url(assets/pool.jpg);">
+                <div class="amenities_img_box" style="background-image: url(imgs/pool.jpg);">
                     <div class="background_overlay"></div>
                     <div class="text_box">
                         <h3>swimming pool</h3>
@@ -117,7 +117,7 @@ include 'includes/header.php';
             </div>
 
             <div class="col-lg-3 col-md-6">
-                <div class="amenities_img_box" style="background-image: url(assets/banquet-hall.jpg);">
+                <div class="amenities_img_box" style="background-image: url(imgs/banquet-hall.jpg);">
                     <div class="background_overlay"></div>
                     <div class="text_box">
                         <h3>banquet hall</h3>
@@ -157,25 +157,25 @@ include 'includes/header.php';
         <div class="swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="assets/hotel-bar.jpg" class="img-fluid">
+                    <img src="imgs/hotel-bar.jpg" class="img-fluid">
                 </div>
                 <div class="swiper-slide">
-                    <img src="assets/hotel-room.jpg" class="img-fluid">
+                    <img src="imgs/hotel-room.jpg" class="img-fluid">
                 </div>
                 <div class="swiper-slide">
-                    <img src="assets/hotel-spa.jpg" class="img-fluid">
+                    <img src="imgs/hotel-spa.jpg" class="img-fluid">
                 </div>
                 <div class="swiper-slide">
-                    <img src="assets/hotel-dish.jpg" class="img-fluid">
+                    <img src="imgs/hotel-dish.jpg" class="img-fluid">
                 </div>
                 <div class="swiper-slide">
-                    <img src="assets/hotel-gym.jpg" class="img-fluid">
+                    <img src="imgs/hotel-gym.jpg" class="img-fluid">
                 </div>
                 <div class="swiper-slide">
-                    <img src="assets/hotel-restaurant.jpg" class="img-fluid">
+                    <img src="imgs/hotel-restaurant.jpg" class="img-fluid">
                 </div>
                 <div class="swiper-slide">
-                    <img src="assets/hotel-bathroom.jpg" class="img-fluid">
+                    <img src="imgs/hotel-bathroom.jpg" class="img-fluid">
                 </div>
             </div>
             <!-- navigation -->
@@ -196,7 +196,7 @@ include 'includes/header.php';
                     <div class="row g-0">
                         <div class="col-lg-6 col-md-6 d-flex align-items-center" style="position: relative;">
                             <div class="card_overlay"></div>
-                            <img src="assets/hotel-single-room.jpg" class="img-fluid">
+                            <img src="imgs/hotel-single-room.jpg" class="img-fluid">
                             <div class="overlay_text">
                                 <h6 class="text-white m-0">₹ 5,000 / Night</h6>
                             </div>
@@ -205,10 +205,10 @@ include 'includes/header.php';
                             <div class="card-body">
                                 <h5 class="card-title text_dark">Single Room</h5>
                                 <p class="class-text">This classic room is equipped with desk and chair, 1 single bed, TV with specially crafted furnishings.</p>
-                                <img src="assets/wifi.png" width="28" height="28">&nbsp;&nbsp;
-                                <img src="assets/room-service%20(1).png" width="28" height="28">&nbsp;&nbsp;
-                                <img src="assets/balcony.png" width="28" height="28">&nbsp;&nbsp;
-                                <img src="assets/beach-view.png" width="28" height="28">&nbsp;&nbsp;
+                                <img src="imgs/wifi.png" width="28" height="28">&nbsp;&nbsp;
+                                <img src="imgs/room-service%20(1).png" width="28" height="28">&nbsp;&nbsp;
+                                <img src="imgs/balcony.png" width="28" height="28">&nbsp;&nbsp;
+                                <img src="imgs/beach-view.png" width="28" height="28">&nbsp;&nbsp;
                             </div>
                         </div>
                     </div>
@@ -220,7 +220,7 @@ include 'includes/header.php';
                     <div class="row g-0">
                         <div class="col-lg-6 col-md-6 d-flex align-items-center" style="position: relative;">
                             <div class="card_overlay"></div>
-                            <img src="assets/hotel-deluxe-room.jpg" class="img-fluid">
+                            <img src="imgs/hotel-deluxe-room.jpg" class="img-fluid">
                             <div class="overlay_text">
                                 <h6 class="text-white m-0">₹ 9,000 / Night</h6>
                             </div>
@@ -229,10 +229,10 @@ include 'includes/header.php';
                             <div class="card-body">
                                 <h5 class="card-title text_dark">Deluxe Suite</h5>
                                 <p class="class-text">This deluxe room is equipped with desk and chair, 1 twin size bed, TV with specially crafted furnishings.</p>
-                                <img src="assets/wifi.png" width="28" height="28">&nbsp;&nbsp;
-                                <img src="assets/room-service%20(1).png" width="28" height="28">&nbsp;&nbsp;
-                                <img src="assets/balcony.png" width="28" height="28">&nbsp;&nbsp;
-                                <img src="assets/beach-view.png" width="28" height="28">&nbsp;&nbsp;
+                                <img src="imgs/wifi.png" width="28" height="28">&nbsp;&nbsp;
+                                <img src="imgs/room-service%20(1).png" width="28" height="28">&nbsp;&nbsp;
+                                <img src="imgs/balcony.png" width="28" height="28">&nbsp;&nbsp;
+                                <img src="imgs/beach-view.png" width="28" height="28">&nbsp;&nbsp;
                             </div>
                         </div>
                     </div>
@@ -251,7 +251,7 @@ include 'includes/header.php';
         <div class="row no-gutters">
             <div class="col-lg-4">
                 <div class="testimonial_box">
-                    <img src="assets/booking.png">
+                    <img src="imgs/booking.png">
                     <div class="rating">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -262,7 +262,7 @@ include 'includes/header.php';
                     <p class="mb_20"><i class="fas fa-quote-left"></i> This was the perfect hotel with the perfect location, perfect room. We had an amazing experience at this hotel. Each member of the staff was incredibly friendly, welcoming, helpful and experienced.</p>
                     <div class="guest_info d-flex align-items-center">
                         <div class="guest_pic d-flex align-items-center">
-                            <img class="rounded-circle" src="assets/customer_1.jpg">
+                            <img class="rounded-circle" src="imgs/customer_1.jpg">
                         </div>
                         <div class="guest_text d-flex align-items-center ps-3">
                             <div class="guest_name">
@@ -276,7 +276,7 @@ include 'includes/header.php';
 
             <div class="col-lg-4">
                 <div class="testimonial_box">
-                    <img src="assets/tripadvisor.png">
+                    <img src="imgs/tripadvisor.png">
                     <div class="rating">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -287,7 +287,7 @@ include 'includes/header.php';
                     <p class="mb_20"><i class="fas fa-quote-left"></i> This was the perfect hotel with the perfect location, perfect room. We had an amazing experience at this hotel. Each member of the staff was incredibly friendly, welcoming, helpful and experienced.</p>
                     <div class="guest_info d-flex align-items-center">
                         <div class="guest_pic d-flex align-items-center">
-                            <img class="rounded-circle" src="assets/customer_2.jpg">
+                            <img class="rounded-circle" src="imgs/customer_2.jpg">
                         </div>
                         <div class="guest_text d-flex align-items-center ps-3">
                             <div class="guest_name">
@@ -301,7 +301,7 @@ include 'includes/header.php';
 
             <div class="col-lg-4">
                 <div class="testimonial_box">
-                    <img src="assets/booking.png">
+                    <img src="imgs/booking.png">
                     <div class="rating">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -312,7 +312,7 @@ include 'includes/header.php';
                     <p class="mb_20"><i class="fas fa-quote-left"></i> This was the perfect hotel with the perfect location, perfect room. We had an amazing experience at this hotel. Each member of the staff was incredibly friendly, welcoming, helpful and experienced.</p>
                     <div class="guest_info d-flex align-items-center">
                         <div class="guest_pic d-flex align-items-center">
-                            <img class="rounded-circle" src="assets/customer_4.jpg">
+                            <img class="rounded-circle" src="imgs/customer_4.jpg">
                         </div>
                         <div class="guest_text d-flex align-items-center ps-3">
                             <div class="guest_name">

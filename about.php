@@ -12,7 +12,7 @@ include 'includes/titlebox.php';
         <div class="row g-0">
             <div class="col-lg-6 d-flex align-items-center">
                 <div class="about_img">
-                    <img src="assets/about.jpg" class="img-fluid">
+                    <img src="imgs/about.jpg" class="img-fluid">
                 </div>
             </div>
 
@@ -37,42 +37,42 @@ include 'includes/titlebox.php';
         <div class="row">
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="amenities_icon_box">
-                    <img src="assets/bar.png">
+                    <img src="imgs/bar.png">
                     <p>home brewery</p>
                 </div>
             </div><!-- column -->
 
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="amenities_icon_box">
-                    <img src="assets/home-cafe.png">
+                    <img src="imgs/home-cafe.png">
                     <p>coffee bar</p>
                 </div>
             </div><!-- column -->
 
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="amenities_icon_box">
-                    <img src="assets/room-service.png">
+                    <img src="imgs/room-service.png">
                     <p>room service</p>
                 </div>
             </div><!-- column -->
 
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="amenities_icon_box">
-                    <img src="assets/restaurant.png">
+                    <img src="imgs/restaurant.png">
                     <p>restaurant</p>
                 </div>
             </div><!-- column -->
 
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="amenities_icon_box">
-                    <img src="assets/car-rental.png">
+                    <img src="imgs/car-rental.png">
                     <p>car rental</p>
                 </div>
             </div><!-- column -->
 
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="amenities_icon_box">
-                    <img src="assets/wifi.png">
+                    <img src="imgs/wifi.png">
                     <p>secure wi-fi</p>
                 </div>
             </div><!-- column -->
@@ -80,7 +80,7 @@ include 'includes/titlebox.php';
 
         <div class="row g-0 mt_50">
             <div class="col-lg-3 col-md-6">
-                <div class="amenities_img_box" style="background-image: url(assets/breakfast.jpg);">
+                <div class="amenities_img_box" style="background-image: url(imgs/breakfast.jpg);">
                     <div class="background_overlay"></div>
                     <div class="text_box">
                         <h3>breakfast</h3>
@@ -89,7 +89,7 @@ include 'includes/titlebox.php';
             </div><!-- column -->
 
             <div class="col-lg-3 col-md-6">
-                <div class="amenities_img_box" style="background-image: url(assets/spa.jpg);">
+                <div class="amenities_img_box" style="background-image: url(imgs/spa.jpg);">
                     <div class="background_overlay"></div>
                     <div class="text_box">
                         <h3>wellness spa</h3>
@@ -98,7 +98,7 @@ include 'includes/titlebox.php';
             </div><!-- column -->
 
             <div class="col-lg-3 col-md-6">
-                <div class="amenities_img_box" style="background-image: url(assets/pool.jpg);">
+                <div class="amenities_img_box" style="background-image: url(imgs/pool.jpg);">
                     <div class="background_overlay"></div>
                     <div class="text_box">
                         <h3>swimming pool</h3>
@@ -107,7 +107,7 @@ include 'includes/titlebox.php';
             </div><!-- column -->
 
             <div class="col-lg-3 col-md-6">
-                <div class="amenities_img_box" style="background-image: url(assets/banquet-hall.jpg);">
+                <div class="amenities_img_box" style="background-image: url(imgs/banquet-hall.jpg);">
                     <div class="background_overlay"></div>
                     <div class="text_box">
                         <h3>banquet hall</h3>
@@ -171,7 +171,7 @@ include 'includes/titlebox.php';
         <div class="row no-gutters">
             <div class="col-lg-4">
                 <div class="testimonial_box">
-                    <img src="assets/booking.png">
+                    <img src="imgs/booking.png">
                     <div class="rating">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -182,7 +182,7 @@ include 'includes/titlebox.php';
                     <p class="mb_20"><i class="fas fa-quote-left"></i> This was the perfect hotel with the perfect location, perfect room. We had an amazing experience at this hotel. Each member of the staff was incredibly friendly, welcoming, helpful and experienced.</p>
                     <div class="guest_info d-flex align-items-center">
                         <div class="guest_pic d-flex align-items-center">
-                            <img class="rounded-circle" src="assets/customer_1.jpg">
+                            <img class="rounded-circle" src="imgs/customer_1.jpg">
                         </div>
                         <div class="guest_text d-flex align-items-center ps-3">
                             <div class="guest_name">
@@ -196,7 +196,7 @@ include 'includes/titlebox.php';
 
             <div class="col-lg-4">
                 <div class="testimonial_box">
-                    <img src="assets/tripadvisor.png">
+                    <img src="imgs/tripadvisor.png">
                     <div class="rating">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -207,7 +207,7 @@ include 'includes/titlebox.php';
                     <p class="mb_20"><i class="fas fa-quote-left"></i> This was the perfect hotel with the perfect location, perfect room. We had an amazing experience at this hotel. Each member of the staff was incredibly friendly, welcoming, helpful and experienced.</p>
                     <div class="guest_info d-flex align-items-center">
                         <div class="guest_pic d-flex align-items-center">
-                            <img class="rounded-circle" src="assets/customer_2.jpg">
+                            <img class="rounded-circle" src="imgs/customer_2.jpg">
                         </div>
                         <div class="guest_text d-flex align-items-center ps-3">
                             <div class="guest_name">
@@ -221,7 +221,7 @@ include 'includes/titlebox.php';
 
             <div class="col-lg-4">
                 <div class="testimonial_box">
-                    <img src="assets/booking.png">
+                    <img src="imgs/booking.png">
                     <div class="rating">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -232,7 +232,7 @@ include 'includes/titlebox.php';
                     <p class="mb_20"><i class="fas fa-quote-left"></i> This was the perfect hotel with the perfect location, perfect room. We had an amazing experience at this hotel. Each member of the staff was incredibly friendly, welcoming, helpful and experienced.</p>
                     <div class="guest_info d-flex align-items-center">
                         <div class="guest_pic d-flex align-items-center">
-                            <img class="rounded-circle" src="assets/customer_4.jpg">
+                            <img class="rounded-circle" src="imgs/customer_4.jpg">
                         </div>
                         <div class="guest_text d-flex align-items-center ps-3">
                             <div class="guest_name">

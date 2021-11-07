@@ -50,7 +50,7 @@ if (isset($_GET['id'])) {
 
             <div class="col-lg-7">
                 <div class="room_img">
-                    <img src="assets/<?php echo $room['room_full_img']; ?>.jpg" class="img-fluid">
+                    <img src="imgs/<?php echo $room['room_full_img']; ?>.jpg" class="img-fluid">
                 </div>
 
                 <div class="room_details">
