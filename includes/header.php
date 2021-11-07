@@ -2,6 +2,7 @@
 define("BASE_URL", "http://localhost/Hotel/");
 
 include "includes/arrays.php";
+// include "bin.txt";
 ?>
 
 <!DOCTYPE html>
@@ -54,6 +55,21 @@ include "includes/arrays.php";
                         </li>
                         <li class="nav-item">
                             <a href="<?php echo BASE_URL; ?>contact.php" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <?php 
+                            $myfile = fopen("bin.txt", "r") or die("Unable to open file!");
+                            if(fread($myfile,filesize("bin.txt")) == "0") {
+                            ?>
+                            <a href="<?php echo BASE_URL; ?>admin-login.php" class="nav-link">Login</a>
+                            <?php
+                            } else {
+                                ?>
+                                <a href="<?php echo BASE_URL; ?>logout.php" class="nav-link">Logout</a>
+                                <?php
+                            }
+                            fclose($myfile); 
+                            ?>
                         </li>
                     </ul>
                 </div>
