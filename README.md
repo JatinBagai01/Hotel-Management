@@ -1,2 +1,0 @@
-# Hotel
-Dynamic PHP Wesbite

@@ -10,7 +10,7 @@ include 'includes/header.php';
     <div class="container">
         <div class="hero_content">
             <h1>The vacation heaven</h1>
-            <p>Awarded Spa Resort and BnB in Greenville, New Jersey</p>
+            <p>Awarded Spa Resort in New Delhi, India</p>
             <a href="<?php echo BASE_URL; ?>contact.php" class="btn btn_theme shadow-none">Make an enquiry <i class="fas fa-arrow-right"></i></a>
         </div>
     </div>
@@ -198,7 +198,7 @@ include 'includes/header.php';
                             <div class="card_overlay"></div>
                             <img src="imgs/hotel-single-room.jpg" class="img-fluid">
                             <div class="overlay_text">
-                                <h6 class="text-white m-0">$ 125 / Night</h6>
+                                <h6 class="text-white m-0">₹ 5,000 / Night</h6>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 d-flex align-items-center">
@@ -222,7 +222,7 @@ include 'includes/header.php';
                             <div class="card_overlay"></div>
                             <img src="imgs/hotel-deluxe-room.jpg" class="img-fluid">
                             <div class="overlay_text">
-                                <h6 class="text-white m-0">$ 145 / Night</h6>
+                                <h6 class="text-white m-0">₹ 9,000 / Night</h6>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 d-flex align-items-center">

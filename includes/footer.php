@@ -11,25 +11,6 @@
                 <h1>THE HOTEL<h1>
             </a>
         </div>
-        <div class="upper_footer">
-            <div class="row justify-content-center text-center">
-                <div class="col-lg-2 col-md-2">
-                    <h6><a href="./" class="footer_link">home</a></h6>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <h6><a href="<?php echo BASE_URL; ?>about.php" class="footer_link">about us</a></h6>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <h6><a href="<?php echo BASE_URL; ?>rooms.php" class="footer_link">packages</a></h6>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <h6><a href="<?php echo BASE_URL; ?>gallery.php" class="footer_link">gallery</a></h6>
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <h6><a href="<?php echo BASE_URL; ?>contact.php" class="footer_link">contact</a></h6>
-                </div>
-            </div><!-- row -->
-        </div><!-- upper footer -->
 
         <div class="footer_address">
             <div class="row justify-content-center">
@@ -41,10 +22,10 @@
                             </span>
                         </div>
                         <div class="address_text">
-                            <h6>+91-800-123-456</h6>
+                            <h6>+91-123-4567-890</h6>
                         </div>
                     </div>
-                </div><!-- cloumn closed -->
+                </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="address_icon_box d-flex justify-content-center align-items-center">
@@ -57,7 +38,7 @@
                             <h6>info@example.com</h6>
                         </div>
                     </div>
-                </div><!-- cloumn closed -->
+                </div>
 
                 <div class="col-lg-3 col-md-4">
                     <div class="address_icon_box d-flex justify-content-center align-items-center">
@@ -67,7 +48,7 @@
                             </span>
                         </div>
                         <div class="address_text">
-                            <h6>34-D, Greenville, NJ</h6>
+                            <h6>34-D, Delhi, IN</h6>
                         </div>
                     </div>
                 </div><!-- cloumn closed -->
@@ -101,7 +82,6 @@
 <!-- swiper slider js -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <!-- custom js -->
-<script src="js/main.js"></script>
 <script>
     var mySwiper = new Swiper('.swiper', {
         loop: true,
