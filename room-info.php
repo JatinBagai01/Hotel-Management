@@ -54,7 +54,7 @@ if (isset($_GET['id'])) {
                 </div>
 
                 <div class="room_details">
-                    <h4 class="text_dark">room deatils</h4>
+                    <h4 class="text_dark">room details</h4>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item d-flex justify-content-between align-items-center px-0 text_dark">
                             Guests:

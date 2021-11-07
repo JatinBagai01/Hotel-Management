@@ -129,7 +129,6 @@ function test_input($data)
 }
 ?>
 
-<!-- section: contact_us -->
 <section class="section_contact">
     <div class="container">
         <div class="row g-0">
@@ -156,7 +155,7 @@ function test_input($data)
                     if (isset($_GET["success"]) && !empty($_GET["success"])) {
                         if ($_GET["success"] == 1) { ?>
                             <div class="alert alert-success">
-                                Thank You!, Your reservation has been confirmed.
+                                Thank You! Your reservation has been confirmed.
                                 <span class="closeBtn" onclick="this.parentElement.style.display='none';">&times;</span>
                             </div>
                     <?php
