@@ -693,3 +693,8 @@ html::-webkit-scrollbar-thumb {
   padding: 1rem 0;
   border-top: 1px solid rgba(234, 234, 234, 0.15);
 }
+
+table{
+  margin-top: 30px;
+  font-size: 12px;
+}

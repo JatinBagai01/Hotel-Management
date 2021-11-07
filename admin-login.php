@@ -11,28 +11,28 @@ include 'includes/titlebox.php';
 include 'includes/connection.php';
 
 // declare variables and intialize with empty values
-$fnameErr = $lnameErr = "";
-$fname = $lname = "";
+$loginIDErr = $passwordErr = "";
+$loginID = $password = "";
 
 // processing form data on submit form
 if (isset($_POST["submit"]) && !empty($_POST["submit"])) {
-    if ($_POST["fname"] != "encoded") {
-        $fnameErr = "*Incorrect";
-    } else if (empty($_POST["fname"])) {
-        $fnameErr = "*This field is required";
+    if ($_POST["loginID"] != "encoded") {
+        $loginIDErr = "*Incorrect";
+    } else if (empty($_POST["loginID"])) {
+        $loginIDErr = "*This field is required";
     } else {
-        $fname = test_input($_POST["fname"]);
+        $loginID = test_input($_POST["loginID"]);
     }
 
-    if ($_POST["lname"] != "encoded") {
-        $fnameErr = "*Incorrect";
-    } else if (empty($_POST["lname"])) {
-        $lnameErr = "*This field is required";
+    if ($_POST["password"] != "encoded") {
+        $passwordErr = "*Incorrect";
+    } else if (empty($_POST["password"])) {
+        $passwordErr = "*This field is required";
     } else {
-        $lname = test_input($_POST["lname"]);
+        $password = test_input($_POST["password"]);
     }
 
-    if ($_POST["lname"] == "encoded" && $_POST["fname"] == "encoded") {
+    if ($_POST["password"] == "encoded" && $_POST["loginID"] == "encoded") {
         // $myfilebin = fopen("bin.txt", "r") or die("Unable to open file!");
         // $txt;
         // if (fread($myfilebin, filesize("bin.txt")) == "0") {
@@ -58,102 +58,95 @@ function test_input($data)
 
 ?>
 
-<!-- section: contact_us -->
 <section class="section_contact">
     <div class="container">
         <div class="row g-0">
-            <div class="col-lg-4">
-                <div class="contact_info">
-                    <div class="card mb-sm-3">
-                        <div class="card-body text-center">
-                            <i class="far fa-envelope fa-2x mb-2"></i>
-                            <h4 class="card-title">Ask Your Queries</h4>
-                            <p class="card-text">Book your stay online and get upto 15% instant discount on checkout.</p>
-                        </div>
-                    </div>
-                    <ul class="list-group">
-                        <li class="list-group-item">34-D, Delhi, IN</li>
-                        <li class="list-group-item">+91-123-4567-890</li>
-                        <li class="list-group-item">info@example.com</li>
-                        <li class="list-group-item">Everyday: 06:00 - 22:00</li>
-                    </ul>
-                </div>
-            </div><!-- column closed -->
-
             <div class="col-lg-8">
                 <div class="contact_form">
-                    <?php
-                    if (isset($_GET["success"]) && !empty($_GET["success"])) {
-                        if ($_GET["success"] == 1) { ?>
-                            <div class="alert alert-success">
-                                Thank You!, We will contact you soon
-                                <span class="closeBtn" onclick="this.parentElement.style.display='none';">&times;</span>
-                            </div>
-                        <?php
-                            // $myfilebin = fopen("bin.txt", "r") or die("Unable to open file!");
-                            // if (fread($myfilebin, filesize("bin.txt")) == "0") {
-                            //     $txt = "1";
-                            // }
-                            // $myfile = fopen("bin.txt", "w") or die("Unable to open file!");
-                            // fwrite($myfile, $txt);
-                            // fclose($myfile);
-                            // fclose($myfilebin);
-                            // header('Location: admin-login.php');
-                            // exit;
-                        }
-                    }
+                <?php
                     $myfile = fopen("bin.txt", "r") or die("Unable to open file!");
                     if (fread($myfile, filesize("bin.txt")) == "0") {
                         ?>
                         <form method="POST" action="<?php echo htmlspecialchars(basename($_SERVER["PHP_SELF"])); ?>#" id="form">
                             <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="mb-3">
-                                        <input type="text" name="fname" class="form-control" placeholder="Login Id*" value="<?php echo $fname; ?>">
-                                        <small class="text-danger"><?php echo $fnameErr; ?></small>
+                                <div class="col-lg-8">
+                                    <div class="mb-4">
+                                        <input type="text" name="loginID" class="form-control" placeholder="Login ID*" value="<?php echo $loginID; ?>">
+                                        <small class="text-danger"><?php echo $loginIDErr; ?></small>
                                     </div>
                                 </div>
-                                <!-- <br><br><br> -->
-                                <div class="col-lg-6">
-                                    <div class="mb-3">
-                                        <input type="text" name="lname" class="form-control" placeholder="Password*" value="<?php echo $lname; ?>">
-                                        <small class="text-danger"><?php echo $lnameErr; ?></small>
+                                <div class="col-lg-8">
+                                    <div class="mb-4">
+                                        <input type="password" name="password" class="form-control" placeholder="Password*" value="<?php echo $password; ?>">
+                                        <small class="text-danger"><?php echo $passwordErr; ?></small>
                                     </div>
                                 </div>
-                                <!-- <div class="col-lg-6">
-                                <div class="mb-3">
-                                    <input type="email" name="email" class="form-control" placeholder="E-mail Address*" value="<?php //echo $email; 
-                                                                                                                                ?>">
-                                    <small class="text-danger"><?php //echo $emailErr; 
-                                                                ?></small>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="mb-3">
-                                    <input type="text" name="mobile" class="form-control" placeholder="Mobile*" value="<?php //echo $mobile; 
-                                                                                                                        ?>">
-                                    <small class="text-danger"><?php //echo $mobErr; 
-                                                                ?></small>
-                                </div>
-                            </div> -->
                                 <div class="col-lg-12">
-                                    <!-- <div class="mb-3">
-                                    <textarea name="message" class="form-control" placeholder="Your Message*" rows="5"></textarea>
-                                </div> -->
                                     <input type="submit" name="submit" value="Submit" class="btn btn_theme shadow-none">
                                 </div>
                             </div><!-- inner row -->
                         </form><!-- form closed -->
                     <?php
                     } else { ?>
-                        <div class="col-lg-6">
-                            <!-- <div class="mb-3">
-                                    <input type="text" name="lname" class="form-control" placeholder="Password*" value="<?php //echo $lname; ?>">
-                                    <small class="text-danger"><?php //echo $lnameErr; ?></small>
-                                </div> -->
-                            <h3>You're Logged In!</h3>
-                            <button></button>
-                        </div>
+                        <input type="submit" name="submit" value="Enquiries" class="btn btn_theme shadow-none" onclick="on()">
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                <th scope="col">Firstname</th>
+                                <th scope="col">Lastname</th>
+                                <th scope="col">Email ID</th>
+                                <th scope="col">Contact Number</th>
+                                <th scope="col">Messages</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>fname from db</td>
+                                    <td>lname from db</td>
+                                    <td>email from db</td>
+                                    <td>contact from db</td>
+                                    <td>message from db</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <input type="submit" name="submit" value="Reservations" class="btn btn_theme shadow-none" style="margin-top:30px;" onclick="on()">
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                <th scope="col">Firstname</th>
+                                <th scope="col">Lastname</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Contact</th>
+                                <th scope="col">Age</th>
+                                <th scope="col">Alternate Number</th>
+                                <th scope="col">No. of Adults</th>
+                                <th scope="col">No. of Children</th>
+                                <th scope="col">Check In Date</th>
+                                <th scope="col">Check Out Date</th>
+                                <th scope="col">Type of Room</th>
+                                <th scope="col">No. of Rooms</th>
+                                <th scope="col">Special Request</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>fname from db</td>
+                                    <td>lname from db</td>
+                                    <td>email from db</td>
+                                    <td>contact from db</td>
+                                    <td>age from db</td>
+                                    <td>alternate from db</td>
+                                    <td>no of adults from db</tb>
+                                    <td>no of children from db</tb>
+                                    <td>checkin date from db</td>
+                                    <td>checkout date from db</td>
+                                    <td>typeofroom from db</tb>
+                                    <td>no of room from db</tb>
+                                    <td>request from db</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <a href="<?php echo BASE_URL; ?>logout.php"><input type="submit" name="submit" value="Logout" class="btn btn_theme shadow-none"></a>
                     <?php
                     }
                     fclose($myfile);

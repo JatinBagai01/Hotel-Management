@@ -41,10 +41,8 @@ CREATE TABLE `enquiry` (
 
 INSERT INTO `enquiry` (`firstname`, `lastname`, `email`, `mobile`, `message`) VALUES
 ('Jatin', 'Bagai', 'jatinbagai2001cool@gmail.com', 8287816810, 'Hello 1st'),
-('Kanishka', 'Aggarwal', 'kanishkaaggarwal45@gmail.com', 8178529558, 'I love Jatin Moonsy'),
 ('hey', 'hey', 'heyheyhey@hey.com', 8327267373, ''),
 ('jatin', 'kanishka', 'abcd@abcd.com', 1234567890, 'abcd');
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

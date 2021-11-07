@@ -104,7 +104,7 @@ function test_input($data)
                     if (isset($_GET["success"]) && !empty($_GET["success"])) {
                         if ($_GET["success"] == 1) { ?>
                             <div class="alert alert-success">
-                                Thank You!, We will contact you soon
+                                Thank You! We will contact you soon
                                 <span class="closeBtn" onclick="this.parentElement.style.display='none';">&times;</span>
                             </div>
                     <?php
