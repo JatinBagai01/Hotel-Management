@@ -22,7 +22,7 @@ include 'includes/titlebox.php';
                     <h2 class="section_subtitle text_dark mb_20">tradition of best hospitality</h2>
                     <p>Make memories at Crown Inn, Amelia Island, where the southern charm, magnificent scenery and casually elegant surroundings exemplify the gentle ambience of this barrier island’s luxury beachfront resort.</p>
                     <p>Crown Inn is the perfect place to feed your spirit. With recently renovated rooms and a bolder focus on cuisine culture &amp; more.</p>
-                    <a href="<?php echo BASE_URL; ?>rooms" class="btn btn_theme shadow-none mt-2">view rooms <i class="fas fa-arrow-right"></i></a>
+                    <a href="<?php echo BASE_URL; ?>rooms.php" class="btn btn_theme shadow-none mt-2">view rooms <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>

@@ -23,13 +23,8 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #ffba00;
 }
-
-html::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
 .alert {
   padding: 12px;
   display: flex;
