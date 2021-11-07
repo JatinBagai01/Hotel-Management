@@ -11,7 +11,6 @@ include 'includes/header.php';
         <div class="hero_content">
             <h1>The vacation heaven</h1>
             <p>Summer Training Project From Encoded ~ Jatin and Kanishka</p>
-            <p>Awarded Spa Resort in New Delhi, India</p>
             <a href="<?php echo BASE_URL; ?>contact.php" class="btn btn_theme shadow-none">Make an enquiry <i class="fas fa-arrow-right"></i></a>
         </div>
     </div>

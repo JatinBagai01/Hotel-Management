@@ -65,7 +65,7 @@ include "includes/arrays.php";
                             <?php
                             } else {
                                 ?>
-                                <a href="<?php echo BASE_URL; ?>logout.php" class="nav-link">Logout</a>
+                                <a href="<?php echo BASE_URL; ?>admin-login.php" class="nav-link">Admin Page</a>
                                 <?php
                             }
                             fclose($myfile); 
