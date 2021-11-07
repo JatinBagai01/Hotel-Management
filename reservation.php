@@ -11,8 +11,8 @@ include 'includes/titlebox.php';
 include 'includes/connection.php';
 
 // declare variables and intialize with empty values
-$fnameErr = $lnameErr = $emailErr = $mobErr = $childErr = $adultsErr = $checkinErr = $checkoutErr = $ageErr = $alternateErr = $roomErr = "";
-$fname = $lname = $email = $mobile = $message = $children = $adults = $checkin = $checkout = $age = $alternate = $room = "";
+$fnameErr = $lnameErr = $emailErr = $mobErr = $ageErr = $alternateErr = $adultsErr = $childErr = $checkinErr = $checkoutErr = $roomtypeErr = $roomErr = "";
+$fname = $lname = $email = $mobile = $age = $alternate = $adults = $child = $checkin = $checkout = $roomtype = $roomm = $message = "";
 
 // processing form data on submit form
 if (isset($_POST["submit"]) && !empty($_POST["submit"])) {
@@ -49,24 +49,6 @@ if (isset($_POST["submit"]) && !empty($_POST["submit"])) {
         }
     }
 
-    if (empty($_POST["adults"])) {
-        $adultsErr = "*This field is required";
-    } else {
-        $adults = test_input($_POST["adults"]);
-        if (!is_numeric($adults)) {
-            $adultsErr = "Only numeric value is allowed";
-        }
-    }
-
-    if (empty($_POST["children"])) {
-        $childErr = "*This field is required";
-    } else {
-        $children = test_input($_POST["children"]);
-        if (!is_numeric($children)) {
-            $childErr = "Only numeric value is allowed";
-        }
-    }
-
     if (empty($_POST["age"])) {
         $ageErr = "*This field is required";
     } else {
@@ -80,38 +62,69 @@ if (isset($_POST["submit"]) && !empty($_POST["submit"])) {
         $alternateErr = "*This field is required";
     } else {
         $alternate = test_input($_POST["alternate"]);
+        if (strlen($mobile) != 10) {
+            $mobErr = "Mobile must contain 10 digits";
+        }
         if (!is_numeric($alternate)) {
             $alternateErr = "Only numeric value is allowed";
         }
     }
 
-    if (empty($_POST["room"])) {
-        $roomErr = "*This field is required";
+    if (empty($_POST["adults"])) {
+        $adultsErr = "*This field is required";
     } else {
-        $room = test_input($_POST["room"]);
-        if (!is_numeric($room)) {
-            $roomErr = "Only numeric value is allowed";
+        $adults = test_input($_POST["adults"]);
+        if (!is_numeric($adults)) {
+            $adultsErr = "Only numeric value is allowed";
+        }
+    }
+
+    if (empty($_POST["child"])) {
+        $childErr = "*This field is required";
+    } else {
+        $child = test_input($_POST["child"]);
+        if (!is_numeric($child)) {
+            $childErr = "Only numeric value is allowed";
         }
     }
 
     if (empty($_POST["checkin"])) {
         $checkinErr = "*This field is required";
+    } else {
+        $checkin = test_input($_POST["checkin"]);
     }
 
     if (empty($_POST["checkout"])) {
         $checkoutErr = "*This field is required";
-    } 
+    } else {
+        $checkout = test_input($_POST["checkout"]);
+    }
+
+    if (empty($_POST["roomtype"])) {
+        $roomtypeErr = "*This field is required";
+    } else {
+        $roomtype = test_input($_POST["roomtype"]);
+    }
+
+    if (empty($_POST["roomm"])) {
+        $roomErr = "*This field is required";
+    } else {
+        $roomm = test_input($_POST["roomm"]);
+        if (!is_numeric($roomm)) {
+            $roomErr = "Only numeric value is allowed";
+        }
+    }
 
     if (empty($_POST["message"])) {
-        $message = "";
+        // $message = "";
     } else {
         $message = test_input($_POST["message"]);
     }
 
     // if no errors then submit form data into database
-    if (empty($fnameErr) && empty($lnameErr) &&  empty($emailErr) && empty($mobErr) && empty($childErr) && empty($alternateErr) && empty($ageErr) && empty($checkinErr) && empty($checkoutErr) && empty($adultsErr) && empty($roomErr)) {
+    if (empty($fnameErr) && empty($lnameErr) &&  empty($emailErr) && empty($mobErr) && empty($childErr) && empty($alternateErr) && empty($ageErr) && empty($checkinErr) && empty($checkoutErr) && empty($adultsErr) && empty($roomErr) && empty($roomtypeErr)) {
 
-        $sql = "INSERT INTO enquiry (firstname, lastname, email, mobile, message, adults, children, checkin, checkout, alternate, age, room) VALUES ('$fname', '$lname', '$email', '$mobile', '$message', '$adults', '$children', '$checkin', '$checkout', '$alternate', '$age', '$room')";
+        $sql = "INSERT INTO reservation (firstname, lastname, email, mobile, age, alternate, adults, children, checkin, checkout, roomtype, room, message) VALUES ('$fname', '$lname', '$email', '$mobile', '$age', '$alternate', '$adults', '$child', '$checkin', '$checkout', '$roomtype', '$roomm', '$message')";
 
         if (mysqli_query($conn, $sql)) {
             header("Location: http://localhost/Hotel/contact.php?success=1#form");
@@ -209,30 +222,42 @@ function test_input($data)
                             </div>
                             <div class="col-lg-6">
                                 <div class="mb-3">
-                                    <input type="text" name="child" class="form-control" placeholder="Number of Children*" value="<?php echo $children; ?>">
+                                    <input type="text" name="child" class="form-control" placeholder="Number of Children*" value="<?php echo $child; ?>">
                                     <small class="text-danger"><?php echo $childErr; ?></small>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="mb-3">
-                                    <input type="text" name="checkin" class="form-control" placeholder="Check In Date (dd/mm/yyyy)*" value="<?php echo $checkin; ?>">
+                                    <input type="text" name="checkin" class="form-control" placeholder="Check In Date (dd/mm/yyyy)*" onfocus="(this.type='date')" value="<?php echo $checkin; ?>">
                                     <small class="text-danger"><?php echo $checkinErr; ?></small>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="mb-3">
-                                    <input type="text" name="checkout" class="form-control" placeholder="Check Out Date (dd/mm/yyyy)*" value="<?php echo $checkout; ?>">
+                                    <input type="text" name="checkout" class="form-control" placeholder="Check Out Date (dd/mm/yyyy)*" onfocus="(this.type='date')" value="<?php echo $checkout; ?>">
                                     <small class="text-danger"><?php echo $checkoutErr; ?></small>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="mb-3">
                                     <!-- Add select code here -->
+                                    <select name="roomtype" class="form-control" value="<?php echo $roomtype; ?>">
+                                        <option disabled selected>Select Types of Room</option>
+                                        <?php
+                                        foreach ($rooms as $room => $room_info) {
+                                            echo "<option value='". $room_info['room_title'] ."'>" . $room_info['room_title'] ."</option>";
+                                        }
+
+                                        ?>
+                                    </select>
+
+                                    <!-- <input type="text" name="checkout" class="form-control" placeholder="Types of Room*" value="<?php //echo $checkout; ?>"> -->
+                                    <small class="text-danger"><?php echo $roomtypeErr; ?></small>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="mb-3">
-                                    <input type="text" name="room" class="form-control" placeholder="Number of Rooms*" value="<?php echo $room; ?>">
+                                    <input type="text" name="roomm" class="form-control" placeholder="Number of Rooms*" value="<?php echo $roomm; ?>">
                                     <small class="text-danger"><?php echo $roomErr; ?></small>
                                 </div>
                             </div>

@@ -10,6 +10,7 @@ include 'includes/header.php';
     <div class="container">
         <div class="hero_content">
             <h1>The vacation heaven</h1>
+            <p>Summer Training Project From Encoded ~ Jatin and Kanishka</p>
             <p>Awarded Spa Resort in New Delhi, India</p>
             <a href="<?php echo BASE_URL; ?>contact.php" class="btn btn_theme shadow-none">Make an enquiry <i class="fas fa-arrow-right"></i></a>
         </div>
@@ -266,8 +267,8 @@ include 'includes/header.php';
                         </div>
                         <div class="guest_text d-flex align-items-center ps-3">
                             <div class="guest_name">
-                                <h6 class="text_dark">Jaydon Patel</h6>
-                                <span>Ahemdabad</span>
+                                <h6 class="text_dark">Jaydon Simmon</h6>
+                                <span>Australia</span>
                             </div>
                         </div>
                     </div>
@@ -291,8 +292,8 @@ include 'includes/header.php';
                         </div>
                         <div class="guest_text d-flex align-items-center ps-3">
                             <div class="guest_name">
-                                <h6 class="text_dark">Mollie Saini</h6>
-                                <span>Nagpur</span>
+                                <h6 class="text_dark">Mollie Griffin</h6>
+                                <span>Netherlands</span>
                             </div>
                         </div>
                     </div>
@@ -316,8 +317,8 @@ include 'includes/header.php';
                         </div>
                         <div class="guest_text d-flex align-items-center ps-3">
                             <div class="guest_name">
-                                <h6 class="text_dark">Sara Kapoor</h6>
-                                <span>Delhi</span>
+                                <h6 class="text_dark">Sara Johnson</h6>
+                                <span>Italy</span>
                             </div>
                         </div>
                     </div>
