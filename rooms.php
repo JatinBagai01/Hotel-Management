@@ -18,16 +18,16 @@ include 'includes/titlebox.php';
                 <div class="col-lg-12 col-md-6">
                     <div class="row align-items-center room_info_box">
                         <div class="col-lg-5">
-                            <img src="imgs/<?php echo $room_info['room_img']; ?>.jpg" class="room_img img-fluid">
+                            <img src="assets/<?php echo $room_info['room_img']; ?>.jpg" class="room_img img-fluid">
                         </div>
                         <div class="col-lg-4">
                             <h4 class="room_title text_dark"><?php echo $room_info['room_title']; ?></h4>
                             <p><?php echo $room_info['room_description']; ?></p>
                             <div class="room_info_1">
-                                <img src="imgs/wifi.png" width="28" height="28">&nbsp;&nbsp;
-                                <img src="imgs/room-service%20(1).png" width="28" height="28">&nbsp;&nbsp;
-                                <img src="imgs/balcony.png" width="28" height="28">&nbsp;&nbsp;
-                                <img src="imgs/beach-view.png" width="28" height="28">&nbsp;&nbsp;
+                                <img src="assets/wifi.png" width="28" height="28">&nbsp;&nbsp;
+                                <img src="assets/room-service%20(1).png" width="28" height="28">&nbsp;&nbsp;
+                                <img src="assets/balcony.png" width="28" height="28">&nbsp;&nbsp;
+                                <img src="assets/beach-view.png" width="28" height="28">&nbsp;&nbsp;
                             </div>
                         </div>
                         <div class="col-lg-3">

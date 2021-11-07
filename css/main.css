@@ -146,7 +146,7 @@ html::-webkit-scrollbar-thumb {
 /*--- section: title_box ---*/
 .section_titlebox {
   min-height: 50vh;
-  background-image: url(../imgs/titlebox_bg.jpg);
+  background-image: url(../assets/titlebox_bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -168,7 +168,7 @@ html::-webkit-scrollbar-thumb {
 /*--- section: hero ---*/
 .section_hero {
   min-height: 100vh;
-  background-image: url(../imgs/hero-section-banner.jpg);
+  background-image: url(../assets/hero-section-banner.jpg);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -272,7 +272,7 @@ html::-webkit-scrollbar-thumb {
 /*--- section: cta ---*/
 .section_cta {
   padding: 80px 0;
-  background-image: url(../imgs/cta-bg-free-img.jpg);
+  background-image: url(../assets/cta-bg-free-img.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -404,7 +404,7 @@ html::-webkit-scrollbar-thumb {
 /*-- section: counter --*/
 .section_counter {
   padding: 100px 0;
-  background-image: url(../imgs/counter-bg.jpg);
+  background-image: url(../assets/counter-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
