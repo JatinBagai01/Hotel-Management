@@ -142,7 +142,7 @@ function test_input($data)
                                     <td>checkout date from db</td>
                                     <td>typeofroom from db</tb>
                                     <td>no of room from db</tb>
-                                    <td>Request from db</td>
+                                    <td>request from db</td>
                                 </tr>
                             </tbody>
                         </table>
