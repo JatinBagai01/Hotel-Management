@@ -35,6 +35,22 @@ CREATE TABLE `enquiry` (
   `message` varchar(100) DEFAULT NULL
 ) 
 
+CREATE TABLE reservation (
+    firstname varchar(20), 
+    lastname varchar(20), 
+    email varchar(50), 
+    mobile BIGINT, 
+    age INT, 
+    alternate BIGINT, 
+    adults INT, 
+    children INT, 
+    checkin DATE, 
+    checkout DATE, 
+    roomtype VARCHAR(20), 
+    room INT, 
+    message VARCHAR(100)
+)
+
 --
 -- Dumping data for table `enquiry`
 --
