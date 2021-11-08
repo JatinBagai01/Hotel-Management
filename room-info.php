@@ -81,7 +81,7 @@ if (isset($_GET['id'])) {
 
                 <div class="room_price_box p-3 d-flex justify-content-between align-items-center" style="background: #f6f6f9;">
                     <span class="text_dark"><?php echo $room['room_price']; ?></span>
-                    <a href="<?php echo BASE_URL; ?>reservation.php" class="btn btn_theme">book now <i class="fas fa-arrow-right"></i></a>
+                    <a href="<?php echo BASE_URL; ?>reservation.php$" class="btn btn_theme">book now <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div><!-- column closed -->
         </div><!-- row -->
