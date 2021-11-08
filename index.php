@@ -10,7 +10,7 @@ include 'includes/header.php';
     <div class="container">
         <div class="hero_content">
             <h1>The vacation heaven</h1>
-            <p></p>
+            <p><br></p>
             <a href="<?php echo BASE_URL; ?>contact.php" class="btn btn_theme shadow-none">Make an enquiry <i class="fas fa-arrow-right"></i></a>
         </div>
     </div>
